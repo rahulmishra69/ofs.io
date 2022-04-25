@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.active 
+{
+    width: 40% !important;
+    z-index: 20 !important;
+}
+.menu-hide
+{
+    display: inline-block !important;
+}
+@font-face
+{
+    font-family: "Raleway-extrabold";
+    src: url(../fonts/Raleway-extrabold.ttf);
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Raleway', sans-serif;
+}
+p, a{
+font-family: 'Roboto', sans-serif;
+}
+img 
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.clear
+{
+    clear: both;
+}
+.container 
+{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.charts 
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    width: 100% auto; 
+    padding: 5px;
+    padding-top: 2rem;
+   margin-left: 16rem;
+}
+.chart 
+{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px rgba(35,43,56,0.9);
+    width: 100%;
+}
+
+

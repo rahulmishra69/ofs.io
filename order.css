@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(max-width:420px)
+{
+    .categories-form .container h2 
+    {
+        position: relative;
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+        margin-left: 1.5rem;
+        top: 11rem;
+        left: 10%;
+        margin-bottom: -5rem;
+    }
+    .categories-form .container .table thead tr th 
+    {
+        position: relative;
+        right: 20rem;
+        font-size: 10px;
+    }
+    .categories-form .container .table tbody tr td
+    {
+        border-radius: 6px;
+        position: relative;
+        right: 9rem;
+        font-size: 10px;
+    }
+    .categories-form .container .table tbody tr td a 
+    {
+        font-size: 5px;
+    }
+}
+

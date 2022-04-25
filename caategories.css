@@ -1,0 +1,118 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: "Raleway-bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Raleway-extrabold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Raleway-semibold";
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Raleway-medium";
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+body
+{
+    background: #eebf00;
+}
+section#sidebar .slidebar-menu ul li a 
+{
+   
+}
+section#sidebar .slidebar-menu ul li a:hover 
+{
+  
+}
+section#sidebar .slidebar-menu ul li a span 
+{
+    
+}
+.categories-form .container h2 
+{
+    background-color: #fff;
+    position: relative;
+    top: 15rem;
+    left: 20%;
+    font-family: "Raleway-semibold";
+    padding: 1.5rem;
+    width: 80%;
+    border-radius: 8px;
+}
+.categories-form .container h2 a 
+{
+   text-decoration: none;
+   color: blue;
+   font-family: "Raleway-semibold";
+}
+.categories-form .container .table thead tr th
+{
+    position: relative;
+    background: #fff;
+    top: 17rem;
+    padding: 1rem;
+    text-align: center;
+    width: 39.2%;
+    border-radius: 6px;
+    border: #eebf00;
+    left: 25%;
+}
+section#main-content .header-left h2 
+{
+    font-family: "Raleway-extrabold";
+    font-size: 22px;
+}
+.categories-form .container .table tbody tr 
+{
+    position: relative;
+    background: #fff;
+    top: 17.2rem;
+    padding: 1rem;
+    text-align: center;
+    width: 39.2%;
+    border-radius: 6px;
+    border: #eebf00;
+    left: 25%;
+}
+@media(max-width:420px)
+{
+    .categories-form .container h2 
+    {
+        position: relative;
+        font-size: 15px;
+        width: 90%;
+        text-align: center;
+        margin-left: 1.5rem;
+        top: 11rem;
+        left: 3%;
+        margin-bottom: -5rem;
+    }
+    .categories-form .container .table thead tr th 
+    {
+        position: relative;
+        right: 20rem;
+        font-size: 10px;
+    }
+    .categories-form .container .table tbody tr td
+    {
+        border-radius: 6px;
+        position: relative;
+        left: -0.2rem;
+        font-size: 10px;
+    }
+    .categories-form .container .table tbody tr td a 
+    {
+        font-size: 5px;
+    }
+}
